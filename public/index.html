@@ -12,8 +12,20 @@
   </head>
   <body>
     <h1>Temperature Comparison</h1>
-    <p>
-    </p>
+   <div>
+       <form id="frm1" >
+         First Time Period: <input type="text" id="start1">
+		    to <input type="text" id="end1"><br><br> 
+         Second Time Period: <input type="text" id="start2">
+		    to <input type="text" id = "end2"  ><br><br>
+         <input type = "submit" name = "submit" id = "submit" value= "Submit" >
+       </form>	
+	<p id = "p1">
+	The average temperature between <span id = "s1"></span> and <span id = "e1"></span>
+	was <span id = temp1></span>&deg; and the average temperature between <span id = "s2">
+	</span> and <span id = "e2"></span> was <span id = temp2></span>&deg;
+	</p>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
