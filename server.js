@@ -34,7 +34,7 @@ app.get('/temperature/:country/:years1/:years2', async (request, response) => {
 	  average1 : avg1,
 	  average2 : avg2
 	};
-	console.log(data);
+	//console.log(data);
 	response.send(JSON.stringify(data));
 	
 	} catch (error){

@@ -9,7 +9,27 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Temperature Comparison</title>
+	 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
   </head>
+  
+ <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+   integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+   crossorigin=""></script> 
+ <style type="text/css">
+#map {
+	width: 80%;
+	height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
+<div id="map"></div>
+
+  
+  
+  
   <body>
     <h1>Temperature Comparison</h1>
    <div>
@@ -21,7 +41,7 @@
          <input type = "submit" name = "submit" id = "submit" value= "Submit" >
        </form>	
 	<p id = "p1">
-	The average temperature between <span id = "s1"></span> and <span id = "e1"></span>
+	In <span id = "country"></span> the average temperature between <span id = "s1"></span> and <span id = "e1"></span>
 	was <span id = temp1></span>&deg; and the average temperature between <span id = "s2">
 	</span> and <span id = "e2"></span> was <span id = temp2></span>&deg;
 	</p>
