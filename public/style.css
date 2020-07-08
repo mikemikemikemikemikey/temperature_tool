@@ -1,1 +1,69 @@
-#mapid { height: 180px; }
+#mapid { height: 170px; }
+
+h1{ font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+	padding: 0px 0px;
+	font-size: 26px;
+}
+ 
+#about, #return { 
+    font-family: "Comic Sans MS", cursive, sans-serif;
+	color: #4CAF50;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+#pabout {
+	
+	text-align: center;
+	width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+	font-size: 26px;
+}
+#error {
+	color:  	#DC143C
+}
+div{font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center
+}
+
+input[type=text] ,select {
+  width: 50px;
+  padding: 10px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+#select{
+  width: 100px;
+}
+input[type=submit] ,style{
+	 width: 60px;
+  padding: 10px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit]:hover {
+  background-color: #4CAF50; 
+  color: white;
+  cursor: pointer;
+}
+input[type=text] ,style {
+	transition: 0.2s;
+
+}
+input[type=text]:focus {
+	border: 3px solid #555;
+}
+
+
